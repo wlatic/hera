@@ -1,0 +1,19 @@
+{
+	"name": "Hera Wlatic Test",
+	"version": "0.1",
+	"slug": "hera",
+	"description": "hera Test build",
+	"url": "https://github.com/wlatic/hera",
+	"arch": ["armv7"],
+	"startup": "services",
+	"boot": "auto",
+	"map": ["ssl:rw"],
+	"options": {
+			"hostname": "hostname",
+			"port": "http://hassio:8123"
+	},
+	"schema": {
+			"hostname": "str",
+			"port": "str"
+	}
+}
